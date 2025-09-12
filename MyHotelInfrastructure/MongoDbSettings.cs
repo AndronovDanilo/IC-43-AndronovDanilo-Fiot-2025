@@ -1,4 +1,4 @@
-﻿namespace HotelBookingServiceMongoDB;
+﻿namespace MyHotelInfrastructure;
 
 public class MongoDbSettings
 {

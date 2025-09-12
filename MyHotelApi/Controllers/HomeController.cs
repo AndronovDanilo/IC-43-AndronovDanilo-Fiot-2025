@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HotelBookingService.Controllers;
+namespace MyHotelApi.Controllers;
 
 public class HomeController : Controller
 {

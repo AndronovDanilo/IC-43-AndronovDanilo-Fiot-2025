@@ -1,6 +1,6 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
 
-namespace HotelBookingService.Models;
+namespace MyHotelDomain.Models;
 
 public class Hotel : Entity
 {

@@ -1,4 +1,4 @@
-using HotelBookingServiceMongoDB;
+using MyHotelInfrastructure;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
