@@ -1,4 +1,4 @@
-using MyHotelInfrastructure;
+using MyHotelInfrastructure.Configuration;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

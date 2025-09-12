@@ -1,4 +1,4 @@
-﻿namespace MyHotelInfrastructure;
+﻿namespace MyHotelInfrastructure.Configuration;
 
 public class MongoDbSettings
 {
