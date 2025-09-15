@@ -1,5 +1,5 @@
 using MyHotelInfrastructure.Configuration;
-using MyHotelInfrastructure.Service;
+using MyHotelInfrastructure.Services;
 using CloudinaryDotNet;
 using Microsoft.Extensions.Options;
 var builder = WebApplication.CreateBuilder(args);

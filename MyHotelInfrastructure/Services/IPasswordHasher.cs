@@ -1,4 +1,4 @@
-﻿namespace MyHotelInfrastructure.Service;
+﻿namespace MyHotelInfrastructure.Services;
 
 public interface IPasswordHasher
 {

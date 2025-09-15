@@ -1,13 +1,15 @@
 ﻿using MyHotelDomain.Models;
+using MyHotelInfrastructure.Services;
 using MongoDB.Driver;
 
-namespace MyHotelInfrastructure.Service;
 
-public class UserService
+namespace MyHotelInfrastructure.Repositories;
+
+public class UserRepository : IUserRepository
 {
     private readonly IMongoCollection<User> _usersCollection;
 
-    public UserService(MongoDbService mongoDbService)
+    public UserRepository(MongoDbService mongoDbService)
     {
         _usersCollection = mongoDbService.GetCollection<User>("users");
     }

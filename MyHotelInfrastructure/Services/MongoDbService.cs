@@ -3,7 +3,7 @@ using MyHotelDomain.Models;
 using Microsoft.Extensions.Options;
 using MyHotelInfrastructure.Configuration;
 
-namespace MyHotelInfrastructure.Service;
+namespace MyHotelInfrastructure.Services;
 
 public class MongoDbService
 {

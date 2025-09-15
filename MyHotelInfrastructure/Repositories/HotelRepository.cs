@@ -1,13 +1,14 @@
 ﻿using MyHotelDomain.Models;
+using MyHotelInfrastructure.Services;
 using MongoDB.Driver;
 
-namespace MyHotelInfrastructure.Service;
+namespace MyHotelInfrastructure.Repositories;
 
-public class HotelService
+public class HotelRepository : IHotelRepository
 {
     private readonly IMongoCollection<Hotel> _hotelsCollection;
 
-    public HotelService(MongoDbService mongoDbService)
+    public HotelRepository(MongoDbService mongoDbService)
     {
         _hotelsCollection = mongoDbService.GetCollection<Hotel>("hotels");
     }
