@@ -6,6 +6,8 @@ public class Hotel : Entity
 {
     [BsonElement("name")]
     public string? Name { get; set; }
+    [BsonElement("city")]
+    public string? City { get; set; }
     [BsonElement("address")]
     public string? Address {get; set;}
     [BsonElement("describe")]
