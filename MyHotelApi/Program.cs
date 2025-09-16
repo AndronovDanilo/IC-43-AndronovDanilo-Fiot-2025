@@ -18,6 +18,7 @@ builder.Services.AddSingleton(sp =>
     var account = new Account(settings.CloudName, settings.ApiKey, settings.ApiSecret);
     return new Cloudinary(account);
 });
+builder.Services.AddSingleton<ICloudinaryService, CloudinaryService>();
 
 var app = builder.Build();
 

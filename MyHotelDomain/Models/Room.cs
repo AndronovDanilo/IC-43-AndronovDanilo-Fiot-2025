@@ -12,4 +12,6 @@ public class Room : Entity
     public int? Capacity {get; set;}
     [BsonElement("isfree")]
     public bool? IsFree {get; set;}
+    [BsonElement("photos")]
+    public List<Photo>? Photos { get; set; }
 }

@@ -12,4 +12,6 @@ public class User : Entity
     public string? Email { get; set; }
     [BsonElement("role")]
     public string? Role { get; set; }
+    [BsonElement("photos")]
+    public Photo? Photos { get; set; }
 }

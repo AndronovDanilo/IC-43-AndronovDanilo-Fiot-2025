@@ -14,4 +14,6 @@ public class Hotel : Entity
     public string? Describe { get; set;}
     [BsonElement("rate")]
     public float? Rate { get; set;}
+    [BsonElement("photos")]
+    public List<Photo>? Photos { get; set;}
 }
