@@ -11,7 +11,18 @@ public class User : Entity
     [BsonElement("email")]
     public string? Email { get; set; }
     [BsonElement("role")]
-    public string? Role { get; set; }
+    public UserRole Role { get; set; }
+    [BsonElement("hotelId")]
+    public string? HotelId { get; set; }
     [BsonElement("photos")]
     public Photo? Photos { get; set; }
+}
+
+public enum UserRole
+{
+    Admin,        
+    HotelOwner,   
+    Manager,      
+    Client,       
+    Guest         
 }
